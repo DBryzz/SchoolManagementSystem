@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
 
   if (!empty($fullname) && !empty($username) && !empty($password1) && !empty($password2) && ($password1 == $password2)) {
 	// Make sure someone isn't already registered using this username
-	$query = "SELECT * FROM ADMIN WHERE ADMIN_U_NAME = '$username'";
+	$query = "SELECT * FROM ADMIN WHERE ADMIN.ADMIN_U_NAME = '$username'";
 	$data = mysqli_query($dbc, $query)
 		or die('SEL: Error Querying Database');
 	if (mysqli_num_rows($data) == 0) {

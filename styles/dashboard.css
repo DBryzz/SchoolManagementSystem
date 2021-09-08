@@ -429,11 +429,14 @@ body {
 .page-footer {
   font-size: 1rem;
   text-align: right;
-  margin-top: 10px;
+  margin-top: -150px;
   position: relative;
   bottom: 0;
   width: initial;
-  height: 150px;
+  /* height: 150px; */
+  margin-top: -(footer height); /* Note the negative value */
+    height: (footer height);
+    clear:both;
   background-color: rgba(142, 158, 247, 0.404);
   z-index: 0;
   color: rgb(0, 0, 0);

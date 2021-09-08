@@ -83,7 +83,7 @@
 		</li>
 		<li>
 			<a href="#0">
-				<a href="/Projects/SchoolManagementSystem/pages/staff_menu.php">
+				<a href="/Projects/SchoolManagementSystem/pages/staff/staff-menu.php">
 					<svg>
 						<use xlink:href="#staff"></use>
 					</svg>
@@ -97,7 +97,7 @@
 		</li>
 		<li>
 			<a href="#0">
-				<a href="/Projects/SchoolManagementSystem/pages/loginform.php">
+				<a href="/Projects/SchoolManagementSystem/pages/students/student-menu.php"">
 					<svg>
 						<use xlink:href="#student"></use>
 					</svg>
@@ -107,7 +107,7 @@
 		</li>
 		<li>
 			<a href="#0">
-				<a href="/Projects/SchoolManagementSystem/pages/loginform.php">
+				<a href="/Projects/SchoolManagementSystem/pages/fees/fee-menu.php">
 
 					<svg>
 						<use xlink:href="#fee"></use>
